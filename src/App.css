@@ -1,0 +1,59 @@
+body {
+  background-color: #000000;
+}
+
+.App {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 10%;
+
+  /* vertial alignment */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.appContents {
+  /* padding: 2vh 0; */
+  margin: 3vh 0;
+
+  /* border: 1px dashed red; */
+}
+
+#dateStyle {
+  font-size: 11.4vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#quoteStyle {
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 2.8vw;
+}
+
+@media (max-width: 768px) {
+  #quoteStyle {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 414px) {
+  #quoteStyle {
+    font-size: 5vw;
+  }
+}
+
+.rubyRed {
+  background-color: #a31621;
+}
+
+.powderBlue {
+  background-color: #0a369d;
+}
+
+.fridayBG {
+  background-image: url(https://media.giphy.com/media/TxVVB6PfWMjE4/source.gif);
+}
